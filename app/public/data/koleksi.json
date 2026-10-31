@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Jerusalem The Biography",
+    "kategori": "Sejarah",
+    "penulis": "Simon Sebag Montefiore",
+    "tahunTerbit": 2011,
+    "status": "Sedang dibaca"
+  },
+  {
+    "id": "2",
+    "judul": "Kingdom",
+    "kategori": "Manga",
+    "penulis": "Yasuhisa Hara",
+    "tahunTerbit": 2006,
+    "status": "Sedang dibaca"
+  },
+  {
+    "id": "3",
+    "judul": "Naruto",
+    "kategori": "Manga",
+    "penulis": "Masashi Kishimoto",
+    "tahunTerbit": 1999,
+    "status": "Sedang dibaca"
+  },
+  {
+    "id": "4",
+    "judul": "Haikyuu!!",
+    "kategori": "Manga",
+    "penulis": "Haruichi Furudate",
+    "tahunTerbit": 2012,
+    "status": "Sedang dibaca"
+  },
+  {
+    "id": "5",
+    "judul": "Principle of Power",
+    "kategori": "Pengembangan diri",
+    "penulis": "Robert Greene",
+    "tahunTerbit": 1998,
+    "status": "Whislist"
+  },
+  {
+    "id": "6",
+    "judul": "Sapiens",
+    "kategori": "Sejarah",
+    "penulis": "Yuval Noah Harari",
+    "tahunTerbit": 2011,
+    "status": "Selesai dibaca"
+  },
+  {
+    "id": "7",
+    "judul": "Dari Penjara ke Penjara",
+    "kategori": "Biografi",
+    "penulis": "Tan Malaka",
+    "tahunTerbit": 1948,
+    "status": "Selesai dibaca"
+  },
+  {
+    "id": "8",
+    "judul": "Bleach",
+    "kategori": "Manga",
+    "penulis": "Tite Kubo",
+    "tahunTerbit": 2001,
+    "status": "Selesai dibaca"
+  },
+  {
+    "id": "9",
+    "judul": "Borrowed",
+    "kategori": "Misteri",
+    "penulis": "Chan Ho-Kei",
+    "tahunTerbit": 2014,
+    "status": "Selesai dibaca"
+  },
+  {
+    "id": "10",
+    "judul": "Black Clover",
+    "kategori": "Manga",
+    "penulis": "Yuki Tabata",
+    "tahunTerbit": 2015,
+    "status": "Sedang dibaca"
   }
 ]
