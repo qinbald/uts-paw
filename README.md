@@ -1,6 +1,6 @@
 # identitas
-| | |
-| :---: | :---: |
+| Identitas | Keterangan |
+| :--- | :--- |
 | **Nama** | Stevan Immanuel Simbolon |
 | **NIM** | 124140130 |
 | **Kelas** | RB |
