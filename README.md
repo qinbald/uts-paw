@@ -1,9 +1,10 @@
 # identitas
-| :---: || :---: |
-| **Nama** || Stevan Immanuel Simbolon|
-| **NIM** || 124140130 |
-| **Kelas** || RB |
-| **Tema** || Rak Buku Pribadi |
+| | |
+| :---: | :---: |
+| **Nama** | Stevan Immanuel Simbolon |
+| **NIM** | 124140130 |
+| **Kelas** | RB |
+| **Tema** | Rak Buku Pribadi |
 
 # Link Deployment 
 **Link Deployment** : https://qinbald.github.io/uts-paw/
