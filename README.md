@@ -9,6 +9,7 @@
 # Link Deployment 
 **Link Deployment** : https://qinbald.github.io/uts-paw/
 
+# Tangkapan Layar
 ![Tangkapan layar beranda](docs/beranda.png)
 
 ## Fitur
