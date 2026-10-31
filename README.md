@@ -1,13 +1,12 @@
 # identitas
-<div align="center">
-   <p>Nama  : Stevan Immanuel Simbolon</p>
-   <p>NIM   : 124140130</p>
-   <p>Kelas : RB</p>
-   <p>Tema  : Rak Buku Pribadi</p>
-</div>
+| :---: || :---: |
+| **Nama** || Stevan Immanuel Simbolon|
+| **NIM** || 124140130 |
+| **Kelas** || RB |
+| **Tema** || Rak Buku Pribadi |
 
 # Link Deployment 
-Deployment: https://qinbald.github.io/uts-paw/
+**Link Deployment** : https://qinbald.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 
