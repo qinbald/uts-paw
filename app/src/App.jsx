@@ -37,7 +37,7 @@
 
 
 import { Route, Routes } from 'react-router-dom'
-import { KoleksiProvider } from './context/KoleksiProvider.jsx'
+import { KoleksiProvider } from './context/KoleksiProvider.jsx' //perbaikan nama
 import Layout from './components/Layout.jsx'
 import Beranda from './pages/Beranda.jsx'
 import Koleksi from './pages/Koleksi.jsx'
