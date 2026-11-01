@@ -7,23 +7,27 @@ import mahasiswa from '../../mahasiswa.json'
 import {Link} from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js';
 import useCount from '../hooks/useCount.js';
+import './Beranda.css'
+import useHitungKoleksi from '../hooks/useHitungKoleksi.js';
 
 export default function Beranda() {
-  const {items, loading} = useContext(KoleksiContext);
+  const {items, loading} = useKoleksi();
+
   const {kataKunci, setKataKunci, bukuDicari} = useSearchBuku(items || []);
-  const {jumlahBuku, jumlahKategori} = useKoleksi(items);
+
+  const {jumlahBuku, jumlahKategori} = useHitungKoleksi(items || []);
   return (
     <section>
-        <h1>Beranda</h1>
-        <p>Tema: {mahasiswa.tema}</p>
+        <h1 className="beranda">Beranda</h1>
+        <p className="tema">Tema: {mahasiswa.tema}</p>
         {loading ? (
             <p>Memuat ringkasan...</p>
         ):(
-            <p>
-                Ada {jumlahBuku} buku dalam {jumlahKategori} kategori.
+            <p className="isi-data">
+                Ada <span id="jumlahbuku">{jumlahBuku}</span> buku dalam <span id="jumlahkategori">{jumlahKategori} </span> kategori.
             </p>
         )}
-        <Link to="/koleksi">Lihat semua buku</Link>
+        <Link to="/koleksi" className="link">Lihat semua buku</Link>
     </section>
     );
 }

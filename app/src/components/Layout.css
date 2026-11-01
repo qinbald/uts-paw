@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color:rgb(167, 176, 161);
+  background-color:rgb(208, 226, 104);
 }
 
 .kepala {
@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  background-color: rgb(129, 212, 174); 
+  background-color: rgb(77, 214, 153); 
 }
 
 .menu {
@@ -70,7 +70,7 @@
   padding: 1rem;
   border: 1px solid #dcdcdc;
   border-radius: 8px;
-  background-color: rgb(129, 212, 174);
+  background-color: rgb(84, 67, 239);
   box-sizing: border-box;
   
   display: flex;
@@ -84,9 +84,18 @@
   font-size: 1.05rem;
 }
 
+.kartu h3 a {
+  color: rgb(227, 220, 7);
+  text-decoration: none;
+}
+
+.kartu h3 a:hover {
+  color: black;
+}
+
 .kartu p {
   margin: 0;
-  color: Black;
+  color: rgb(231, 231, 231);
 }
 
 .alat-koleksi {
@@ -99,7 +108,7 @@
 .alat-koleksi input,
 .alat-koleksi select {
   padding: 0.5rem 0.75rem;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #73a456;
   border-radius: 6px;
   font: inherit;
 }
