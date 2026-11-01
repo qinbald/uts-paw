@@ -13,13 +13,28 @@
   background-color: rgb(77, 214, 153); 
 }
 
-.menu {
-  display: flex;
-  gap: 1rem;
+#logo {
+  font-size: 2rem;
 }
 
-.menu a.active {
+#logo span {
+  font-size: 2rem;
+  color:#3908ff
+}
+
+#menu {
+  display: flex;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  opacity: 0.5;
+}
+
+#menu a.active {
   font-weight: 600;
+  transform: scale(0.90);
 }
 
 .isi {
@@ -30,7 +45,7 @@
   padding: 1.5rem;
 }
 
-.kaki {
+#kaki {
   padding: 1rem 1.5rem;
   border-top: 1px solid #dcdcdc;
   color: #57606a;
