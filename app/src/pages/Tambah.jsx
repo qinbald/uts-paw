@@ -28,11 +28,11 @@ export default function Tambah() {
       <h1>Tambah Tugas</h1>
 
       <label htmlFor="judul">Judul</label>
-      <input id="judul" name="judul" value={form.judul} onChange={ubah} placeHolder="Contoh: Aroma Karsa"/>
-      {galat && <p role="alert">{galat}</p>}
+      <input id="judul" name="judul" value={form.judul} onChange={ubah} placeholder="Contoh: Aroma Karsa"/>
+      {galat && <p role="alert" style={{color:'red'}}>{galat}</p>}
 
       <label htmlFor="kategori">Kategori</label>
-      <input type="text" id="kategori" name="kategori" value={form.kategori} onChange={ubah} placeholder="Contoh: Romansa" list="opsi-kategori"/>
+      <input type="text" id="kategori" name="kategori" value={form.kategori} onChange={ubah} placeholder="Contoh: Romansa" list="opsi-kategori" autoComplete="off"/>
       <datalist id="opsi-kategori">
         <option>Sejarah</option>
         <option>Manga</option>
@@ -40,10 +40,10 @@ export default function Tambah() {
       </datalist>
         
       <label htmlFor="penulis">Penulis</label>
-      <input id="penulis" name="penulis" value={form.penulis} onChange={ubah} placeHolder="Contoh: Dee Lestari"/>
+      <input id="penulis" name="penulis" value={form.penulis} onChange={ubah} placeholder="Contoh: Dee Lestari"/>
       
       <label htmlFor="tahunTerbit">Tahun Terbit</label>
-      <input type="text" id="tahunTerbit" name="tahunTerbit" value={form.tahunTerbit} onChange={ubah} placeHolder="Contoh: 2018" autoComplete="off"/>
+      <input type="text" id="tahunTerbit" name="tahunTerbit" value={form.tahunTerbit} onChange={ubah} placeholder="Contoh: 2018" autoComplete="off"/>
 
       <label htmlFor="prioritas">Status</label>
       <select id="prioritas" name="status" value={form.status} onChange={ubah}>

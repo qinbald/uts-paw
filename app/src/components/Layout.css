@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color:rgb(167, 176, 161);
 }
 
 .kepala {
@@ -9,6 +10,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  background-color: rgb(129, 212, 174); 
 }
 
 .menu {
@@ -58,14 +60,23 @@
 
 .daftar-kartu {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .kartu {
   padding: 1rem;
   border: 1px solid #dcdcdc;
   border-radius: 8px;
+  background-color: rgb(129, 212, 174);
+  box-sizing: border-box;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 110px;
 }
 
 .kartu h3 {
@@ -75,7 +86,7 @@
 
 .kartu p {
   margin: 0;
-  color: #57606a;
+  color: Black;
 }
 
 .alat-koleksi {
@@ -100,6 +111,12 @@
   }
 
   .daftar-kartu {
-    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .kartu {
+    width: 100%;
   }
 }
