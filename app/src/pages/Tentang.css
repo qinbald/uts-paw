@@ -1,0 +1,36 @@
+#nama, #kelas {
+    background-color:aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#nim, #tema {
+    background-color:rgba(50, 153, 255, 0.974);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#isinama, #isikelas {
+    background-color:rgba(50, 153, 255, 0.974);
+    padding: 10px;
+    border-radius: 10px;
+    color:black;
+}
+
+#isinim, #isitema {
+    background-color:aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    color:black;
+}
+
+#repo {
+    background-color:rgb(7, 245, 62);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#repo:hover {
+    opacity: 0.60;
+}

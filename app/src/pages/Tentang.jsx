@@ -7,19 +7,19 @@ const REPO = 'https://github.com/qinbald/uts-paw'
 export default function Tentang() {
   const { nama, nim, kelas, tema } = mahasiswa
   return (
-    <section>
+    <section >
       <h1>Tentang</h1>
       <dl>
-        <dt>Nama</dt>
-        <dd>{nama}</dd>
-        <dt>NIM</dt>
-        <dd>{nim}</dd>
-        <dt>Kelas</dt>
-        <dd>{kelas}</dd>
-        <dt>Tema</dt>
-        <dd>{tema}</dd>
+        <dt id="nama">Nama</dt>
+        <dd id="isinama">{nama}</dd>
+        <dt id="nim">NIM</dt>
+        <dd id="isinim">{nim}</dd>
+        <dt id="kelas">Kelas</dt>
+        <dd id="isikelas">{kelas}</dd>
+        <dt id="tema">Tema</dt>
+        <dd id="isitema">{tema}</dd>
       </dl>
-      <p>
+      <p id="repo">
         Kode sumber: <a href={REPO}>{REPO}</a>
       </p>
     </section>
