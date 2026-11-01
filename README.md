@@ -15,6 +15,7 @@
 ![Tangkapan layar beranda](img/statistik.png)
 ![Tangkapan layar beranda](img/tambah.png)
 ![Tangkapan layar beranda](img/tentang.png)
+![Tangkapan layar beranda](img/404.png)
 
 ## Fitur
 
