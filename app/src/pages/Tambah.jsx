@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judul: 'Jerusalem The Biography', kategori: 'Sejarah', Penulis : 'Simon Sebag Montefiore', tahunTerbit: '2011', status: "Sedang dibaca" }
+const AWAL = { judul: '', kategori: '', Penulis : '', tahunTerbit: '', status: 'Sedang dibaca' }
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
@@ -28,21 +28,22 @@ export default function Tambah() {
       <h1>Tambah Tugas</h1>
 
       <label htmlFor="judul">Judul</label>
-      <input id="judul" name="judul" value={form.judul} onChange={ubah} />
+      <input id="judul" name="judul" value={form.judul} onChange={ubah} placeHolder="Contoh: Aroma Karsa"/>
       {galat && <p role="alert">{galat}</p>}
 
       <label htmlFor="kategori">Kategori</label>
-      <select id="kategori" name="kategori" value={form.kategori} onChange={ubah}>
+      <input type="text" id="kategori" name="kategori" value={form.kategori} onChange={ubah} placeholder="Contoh: Romansa" list="opsi-kategori"/>
+      <datalist id="opsi-kategori">
         <option>Sejarah</option>
         <option>Manga</option>
         <option>Misteri</option>
-      </select>
-
-      <label htmlFor="tenggat">Penulis</label>
-      <input id="tenggat" name="penulis" value={form.penulis} onChange={ubah}/>
+      </datalist>
+        
+      <label htmlFor="penulis">Penulis</label>
+      <input id="penulis" name="penulis" value={form.penulis} onChange={ubah} placeHolder="Contoh: Dee Lestari"/>
       
-      <label htmlFor="tenggat">Tahun Terbit</label>
-      <input id="tenggat" name="tahun terbit" value={form.tahunTerbit} onChange={ubah}/>
+      <label htmlFor="tahunTerbit">Tahun Terbit</label>
+      <input type="text" id="tahunTerbit" name="tahunTerbit" value={form.tahunTerbit} onChange={ubah} placeHolder="Contoh: 2018" autoComplete="off"/>
 
       <label htmlFor="prioritas">Status</label>
       <select id="prioritas" name="status" value={form.status} onChange={ubah}>
