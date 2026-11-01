@@ -25,7 +25,7 @@ export default function Tambah() {
 
   return (
     <form className="formulir" onSubmit={simpan} noValidate>
-      <h1>Tambah Tugas</h1>
+      <h1 id="head">Tambah Tugas</h1>
 
       <label htmlFor="judul">Judul</label>
       <input id="judul" name="judul" value={form.judul} onChange={ubah} placeholder="Contoh: Aroma Karsa"/>
@@ -45,8 +45,8 @@ export default function Tambah() {
       <label htmlFor="tahunTerbit">Tahun Terbit</label>
       <input type="text" id="tahunTerbit" name="tahunTerbit" value={form.tahunTerbit} onChange={ubah} placeholder="Contoh: 2018" autoComplete="off"/>
 
-      <label htmlFor="prioritas">Status</label>
-      <select id="prioritas" name="status" value={form.status} onChange={ubah}>
+      <label htmlFor="status">Status</label>
+      <select id="status" name="status" value={form.status} onChange={ubah}>
         <option value="selesai dibaca">Selesai dibaca</option>
         <option value="selesai dibaca">Sedang dibaca</option>
         <option value="wishlist">Wishlist</option>

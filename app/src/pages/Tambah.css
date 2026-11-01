@@ -41,3 +41,15 @@
     align-self: stretch;
   }
 }
+
+#judul, #penulis, #status {
+    background-color:bisque;
+    color: black;
+}
+
+#head {
+    background-color:azure;
+    width: fit-content;
+    padding: 4px;
+    border-radius: 6px;
+}

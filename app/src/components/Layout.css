@@ -26,6 +26,16 @@
   display: flex;
   gap: 1rem;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#menu a {
+  text-decoration: none;
+  background-color:aliceblue;
+  padding: 4px;
+  border-radius: 12px;
 }
 
 #menu a:hover {
