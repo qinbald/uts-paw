@@ -33,18 +33,22 @@ export default function Tambah() {
 
       <label htmlFor="kategori">Kategori</label>
       <select id="kategori" name="kategori" value={form.kategori} onChange={ubah}>
-        <option>Kuliah</option>
-        <option>Organisasi</option>
+        <option>Sejarah</option>
+        <option>Manga</option>
+        <option>Misteri</option>
       </select>
 
-      <label htmlFor="tenggat">Tenggat</label>
-      <input id="tenggat" name="tenggat" type="date" value={form.tenggat} onChange={ubah} />
+      <label htmlFor="tenggat">Penulis</label>
+      <input id="tenggat" name="penulis" value={form.penulis} onChange={ubah}/>
+      
+      <label htmlFor="tenggat">Tahun Terbit</label>
+      <input id="tenggat" name="tahun terbit" value={form.tahunTerbit} onChange={ubah}/>
 
-      <label htmlFor="prioritas">Prioritas</label>
-      <select id="prioritas" name="prioritas" value={form.prioritas} onChange={ubah}>
-        <option value="rendah">Rendah</option>
-        <option value="sedang">Sedang</option>
-        <option value="tinggi">Tinggi</option>
+      <label htmlFor="prioritas">Status</label>
+      <select id="prioritas" name="status" value={form.status} onChange={ubah}>
+        <option value="selesai dibaca">Selesai dibaca</option>
+        <option value="selesai dibaca">Sedang dibaca</option>
+        <option value="wishlist">Wishlist</option>
       </select>
 
       <button type="submit">Simpan</button>

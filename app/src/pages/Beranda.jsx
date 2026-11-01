@@ -9,8 +9,9 @@ import useKoleksi from '../hooks/useKoleksi.js';
 import useCount from '../hooks/useCount.js';
 
 export default function Beranda() {
-  const {items} = useContext(KoleksiContext);
+  const {items, loading} = useContext(KoleksiContext);
   const {kataKunci, setKataKunci, bukuDicari} = useSearchBuku(items || []);
+  const {jumlahBuku, jumlahKategori} = useKoleksi(items);
   return (
     <section>
         <h1>Beranda</h1>
@@ -19,7 +20,7 @@ export default function Beranda() {
             <p>Memuat ringkasan...</p>
         ):(
             <p>
-                Ada {item.length} buku dalam {jumlahKategori} kategori.
+                Ada {jumlahBuku} buku dalam {jumlahKategori} kategori.
             </p>
         )}
         <Link to="/koleksi">Lihat semua buku</Link>
