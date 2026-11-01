@@ -5,7 +5,8 @@ import {KoleksiContext} from '../context/koleksiContext.js';
 import useSearchBuku from '../hooks/useSearchBuku.js';
 import mahasiswa from '../../mahasiswa.json'
 import {Link} from 'react-router-dom'
-import useKoleksi from '../hooks/useKoleksi.js'
+import useKoleksi from '../hooks/useKoleksi.js';
+import useCount from '../hooks/useCount.js';
 
 export default function Beranda() {
   const {items} = useContext(KoleksiContext);
@@ -18,10 +19,10 @@ export default function Beranda() {
             <p>Memuat ringkasan...</p>
         ):(
             <p>
-                Ada {item.lengths} buku dalam {jumlahKategori} kategori.
+                Ada {item.length} buku dalam {jumlahKategori} kategori.
             </p>
         )}
         <Link to="/koleksi">Lihat semua buku</Link>
     </section>
-    )
+    );
 }
